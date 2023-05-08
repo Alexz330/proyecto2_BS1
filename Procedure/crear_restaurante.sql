@@ -1,6 +1,6 @@
 DELIMITER //
 
-CREATE PROCEDURE crear_restaurante (
+CREATE PROCEDURE RegistrarRestaurante (
     IN p_id VARCHAR(50),
     IN p_direccion VARCHAR(255),
     IN p_municipio VARCHAR(50),

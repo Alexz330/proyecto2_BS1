@@ -1,5 +1,5 @@
 DELIMITER //
-CREATE PROCEDURE Crear_Empleado (
+CREATE PROCEDURE CrearEmpleado (
     IN Nombres VARCHAR(50),
     IN Apellidos VARCHAR(50),
     IN FechaNacimiento DATE,
@@ -7,8 +7,9 @@ CREATE PROCEDURE Crear_Empleado (
     IN Telefono BIGINT,
     IN Direccion VARCHAR(100),
     IN NumeroDPI BIGINT,
-    IN Puesto INT,
     IN FechaInicio DATE,
+
+    IN Puesto INT,
     IN id_restaurante VARCHAR(50)
 )
 BEGIN
